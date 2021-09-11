@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LET'S CODE</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+
+          <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          <a class="nav-link" href="#content">Content</a>
+          <a class="nav-link" href="index.html#blog">Blog</a>
+          <a class="nav-link" href="index.html#about">About</a>
+          <a class="nav-link" href="index.html#contact">Contact</a>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <div id="home" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="crsl1e.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="crsl2e.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="crsl3e.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="alert alert-primary alert-dismissible fade show " role="alert">
+    <strong>Computer Scientists Find a Key Research Algorithm's Limits</strong>
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+
+  <div class="alert alert-success alert-dismissible fade show" role="alert">
+    <strong>PYTHON IS THE MOSTLY USED PROGRAMMING LANGUAGE IN 2021</strong>
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+
+  <div class="alert alert-danger alert-dismissible fade show" role="alert">
+    <strong>FLUTTER ALLOWS TO CREATE ANDROID APPS VERY EASILY</strong>
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+
+  <div class="alert alert-info alert-dismissible fade show" role="alert">
+    <strong>JS IS MOSTLY IS ALL KINDS OF FRONTEND DEVELOPMENT</strong>
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+
+
+  <div id="content" class="card-group ">
+    <div class=" card text-white bg-primary mb-3 h-30 mh-100 card border-primary mb-3 w-20 col-sm-12">
+      
+      <img src="https://source.unsplash.com/1600x900/?coding,programming" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">PYTHON</h5>
+        <p class="card-text"></p>
+        <p class="card-text">Python is extensively used for developing websites and software, task automation, data
+          analysis, and data visualization<small class="text-muted"></small></p>
+      </div>
+    </div>
+    <div class="card text-white bg-danger mb-3 h-30 mh-100 card border-danger mb-3 w-20">
+      
+      <img src="https://source.unsplash.com/1600x900/?coding,computers" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">JAVA</h5>
+        <p class="card-text">
+        <p class="card-text"></p>
+        <p class="card-text">Java is mostly used server-side language for most back-end development projects<small
+            class="text-muted"></small></p>
+      </div>
+    </div>
+    <div class=" card text-white bg-success mb-3 h-30 mh-100 card border-success mb-3 w-20">
+      
+      <img src="https://source.unsplash.com/1600x900/?programming" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">C++</h5>
+        <p class="card-text"></p>
+        <p class="card-text">C++ is widely used in game development. It has been used to create: games, such as World of
+          Warcraft, Counter-Strike, and StarCraft, game engines like Unreal Engine, and gaming consoles, including Xbox,
+          PlayStation, and Nintendo Switch<small class="text-muted"></small></p>
+      </div>
+    </div>
+  </div>
+
+  <section id="blog" class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-wrap -m-4">
+        <div class="p-4 md:w-1/3">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="logo1e.jpg"
+              alt="blog">
+            <div class="p-6">
+
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">PYTHON</h1>
+              <p class="leading-relaxed mb-3">Python is an interpreted high-level general-purpose programming language.
+                Its design philosophy emphasizes code readability with its use of significant indentation. Its language
+                constructs as well as its object-oriented approach aim to help programmers write clear, logical code for
+                small and large-scale projects.Python is dynamically-typed and garbage-collected. It supports multiple
+                programming paradigms, including structured (particularly, procedural), object-oriented and functional
+                programming. It is often described as a "batteries included" language due to its comprehensive standard
+                library.Guido van Rossum began working on Python in the late 1980s, as a successor to the ABC
+                programming language, and first released it in 1991 as Python 0.9.0.[32] Python 2.0 was released in 2000
+                and introduced new features, such as list comprehensions and a garbage collection system using reference
+                counting. Python 3.0 was released in 2008 and was a major revision of the language that is not
+                completely backward-compatible. Python 2 was discontinued with version 2.7.18 in 2020.Python
+                consistently ranks as one of the most popular programming languages.</p>
+              <div class="flex items-center flex-wrap ">
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/3">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="javalogoe.png"
+              alt="blog">
+            <div class="p-6">
+
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">JAVA</h1>
+              <p class="leading-relaxed mb-3">Java is a high-level, class-based, object-oriented programming language
+                that is designed to have as few implementation dependencies as possible. It is a general-purpose
+                programming language intended to let application developers write once, run anywhere (WORA),[17] meaning
+                that compiled Java code can run on all platforms that support Java without the need for
+                recompilation.[18] Java applications are typically compiled to bytecode that can run on any Java virtual
+                machine (JVM) regardless of the underlying computer architecture. The syntax of Java is similar to C and
+                C++, but has fewer low-level facilities than either of them. The Java runtime provides dynamic
+                capabilities (such as reflection and runtime code modification) that are typically not available in
+                traditional compiled languages. As of 2019, Java was one of the most popular programming languages in
+                use according to GitHub,[19][20] particularly for client-server web applications, with a reported 9
+                million developers.Java was originally developed by James Gosling at Sun Microsystems (which has since
+                been acquired by Oracle) and released in 1995 as a core component of Sun Microsystems' </p>
+              <div class="flex items-center flex-wrap">
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/3">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="logo3e.png"
+              alt="blog">
+            <div class="p-6">
+
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">C++</h1>
+              <p class="leading-relaxed mb-3">C++ (/ˌsiːˌplʌsˈplʌs/) is a general-purpose programming language created
+                by Bjarne Stroustrup as an extension of the C programming language, or "C with Classes". The language
+                has expanded significantly over time, and modern C++ now has object-oriented, generic, and functional
+                features in addition to facilities for low-level memory manipulation. It is almost always implemented as
+                a compiled language, and many vendors provide C++ compilers, including the Free Software Foundation,
+                LLVM, Microsoft, Intel, Oracle, and IBM, so it is available on many platforms.C++ was designed with an
+                orientation toward system programming and embedded, resource-constrained software and large systems,
+                with performance, efficiency, and flexibility of use as its design highlights.[10] C++ has also been
+                found useful in many other contexts, with key strengths being software infrastructure and
+                resource-constrained applications,[10] including desktop applications, video games, servers (e.g.
+                e-commerce, web search, or databases), and performance-critical applications (e.g. telephone switches or
+                space probes).C++ is standardized by the (ISO).</p>
+              <div class="flex items-center flex-wrap ">
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="about" class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block w-8 h-8 text-gray-400 mb-8"
+          viewBox="0 0 975.036 975.036">
+          <path
+            d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z">
+          </path>
+        </svg>
+        <p class="leading-relaxed text-lg">WE AT LET'S CODE TRY OUR BEST TO PROVIDE YOU WITH ALL THE IMPORTANT NEWS AND
+          UPDATES REGARDING PYTHON , JAVA , C++. GET CONNECTED WITH US TO STAY UPDATED.</p>
+        <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-8 mb-6"></span>
+        <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">RAJ ARYAN</h2>
+        <p class="text-gray-500">MANAGER</p>
+      </div>
+    </div>
+  </section>
+
+  <form action="https://formsubmit.co/rajbiswasgamer409@gmail.com" method="POST"
+  <section id="contact" class="text-gray-600 body-font relative">
+    <div class="absolute inset-0 bg-gray-300">
+      <iframe width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" title="map" scrolling="no" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=%C4%B0zmir+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" style="filter: grayscale(1) contrast(1.2) opacity(0.4);"></iframe>
+    </div>
+    <div class="container px-5 py-24 mx-auto flex">
+      <div class="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
+        <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">Feedback</h2>
+        <p class="leading-relaxed mb-5 text-gray-600">Do you have a query? Feel free to connect</p>
+        <div class="relative mb-4">
+          <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+          <input type="email" id="email" name="email" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+        </div>
+        <div class="relative mb-4">
+          <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+          <textarea id="message" name="message" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+        </div>
+        <button class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Submit</button>
+        <p class="text-xs text-gray-500 mt-3"></p>
+      </div>
+    </div>
+  </section>
+
+
+
+
+</body>
+
+</html>
